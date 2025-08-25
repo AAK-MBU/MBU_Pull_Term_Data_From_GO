@@ -37,8 +37,3 @@ def get_credentials_and_constants(orchestrator_connection: OrchestratorConnectio
         return credentials
     except AttributeError as e:
         raise SystemExit(e) from e
-
-
-if __name__ == "__main__":
-    oc = OrchestratorConnection.create_connection_from_args()
-    process(oc)
