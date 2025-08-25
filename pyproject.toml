@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "MBU_Pull_Term_Data_From_GO"
-version = "0.0.1"
+version = "1.0.0"
 authors = [
   { name="MBU", email="rpa@mbu.aarhus.dk" },
 ]
@@ -17,7 +17,7 @@ classifiers = [
 ]
 dependencies = [
     "OpenOrchestrator == 1.*",
-    "Pillow == 9.5.0",
+    "Pillow",
     "mbu_dev_shared_components",
 ]
 
